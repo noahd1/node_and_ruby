@@ -1,7 +1,7 @@
 FROM node:9.9.0-alpine
 
-ARG RUBY_RELEASE="https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.tar.gz"
-ARG RUBY="ruby-2.4.0"
+ARG RUBY_RELEASE="https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.10.tar.gz"
+ARG RUBY="ruby-2.4.10"
 
 RUN apk add --no-cache git make gcc g++ libc-dev pkgconfig \
     libxml2-dev libxslt-dev postgresql-dev coreutils curl wget bash \
